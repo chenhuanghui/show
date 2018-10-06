@@ -1,16 +1,15 @@
 <template>
   <div class="hello">
-    <h1 id="test">hahaahahaha</h1>
     <div>
-      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 300px; left: -120px" src="img/pattern_line.jpg" />
-      <img style="height: 150px; transform: rotate(90deg); position: absolute; top: 800px; right: -120px" src="img/pattern_line.jpg" />
-      <img style="height: 350px; position: absolute; top: 1400px;-webkit-transform: scaleX(-1);transform: scaleX(-1);" src="img/pattern_lotus.jpg" />
-      <img style="height: 150px; transform: rotate(90deg); position: absolute; top: 1800px; right: -120px" src="img/pattern_line.jpg" />
-      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 2300px; left: -120px" src="img/pattern_line.jpg" />
-      <img style="height: 350px; position: absolute; top: 2500px;right: 0px;" src="img/pattern_lotus.jpg" />
-      <img style="height: 350px; position: absolute; top: 3300px;-webkit-transform: scaleX(-1);transform: scaleX(-1);" src="img/pattern_lotus.jpg" />
-      <img style="height: 350px; position: absolute; top: 3700px;right: 0px;" src="img/pattern_lotus.jpg" />
-      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 4300px; left: -120px" src="img/pattern_line.jpg" />
+      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 300px; left: -120px" src="../assets/img/pattern_line.jpg" />
+      <img style="height: 150px; transform: rotate(90deg); position: absolute; top: 800px; right: -120px" src="../assets/img/pattern_line.jpg" />
+      <img style="height: 350px; position: absolute; top: 1400px;-webkit-transform: scaleX(-1);transform: scaleX(-1);" src="../assets/img/pattern_lotus.jpg" />
+      <img style="height: 150px; transform: rotate(90deg); position: absolute; top: 1800px; right: -120px" src="../assets/img/pattern_line.jpg" />
+      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 2300px; left: -120px" src="../assets/img/pattern_line.jpg" />
+      <img style="height: 350px; position: absolute; top: 2500px;right: 0px;" src="../assets/img/pattern_lotus.jpg" />
+      <img style="height: 350px; position: absolute; top: 3300px;-webkit-transform: scaleX(-1);transform: scaleX(-1);" src="../assets/img/pattern_lotus.jpg" />
+      <img style="height: 350px; position: absolute; top: 3700px;right: 0px;" src="../assets/img/pattern_lotus.jpg" />
+      <img style="height: 150px; transform: rotate(-90deg); position: absolute; top: 4300px; left: -120px" src="../assets/img/pattern_line.jpg" />
     </div>
     <div class="is-mobile"></div>
     <!-- LOADER -->
@@ -363,7 +362,7 @@
         </footer>
         <!-- footer -->
                 <!-- Swiper -->
-        <div class="swiper-under-footer">
+        <!-- <div class="swiper-under-footer">
             <div class="swiper-container" data-speed="1000" data-breakpoints="1" data-slides-per-view="9" data-xs-slides="3" data-sm-slides="5" data-md-slides="7" data-lg-slides="9">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><a href="#"><img src="../assets/img/im01.png" alt="#"></a></div>
@@ -382,39 +381,80 @@
                     <div class="swiper-slide"><a href="#"><img src="../assets/img/im05.png" alt="#"></a></div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
     </div>
     <!-- content -->
 
     <!-- SUBSCRIBE -->
-    <div class="submit text-popup overlay">
-        <div class="animation-wrapper full-size"></div>
-        <div class="content-wrapper full-size">
-            <div class="cell-view page-height">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3 text-center">
-                            <div class="h2 white"><b class="text-popup-title">submit</b></div>
-                            <div class="empty-space h15-xs"></div>
-                            <div class="white text-popup-message">
-                                The following fields should be filled:- Name - Email - Your Message
+    <footer class="footer-style footer-style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-left">
+                        <a class="logo" href="#">
+                            <img src="../assets/img/logo.png" alt="#">
+                        </a>
+                        <div class="empty-space h15-xs h0-md"></div>
+                    </div>
+                
+                    <div class="col-md-5 col-sm-8 col-xs-12">
+                        <div class="empty-space h20-xs h0-md"></div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <form class="subscribe-form">
+                            <div class="input-wrapper">
+                                <div class="input-style">
+                                    <input id="input" name="email" type="text">
+                                    <label for="input">E-mail</label>
+                                </div>
+                                <button class="btn-style1" type="submit"><span>ĐĂNG KÝ</span></button>
                             </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="empty-space h40-xs fl"></div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="follow">
+                            <a class="social" href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a class="social" href="https://www.instagram.com/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a class="social" href="https://www.pinterest.com/" target="_blank">
+                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                            </a>
+                            <a class="social" href="https://www.twitter.com/" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="empty-space h35-xs fl"></div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="copyright normal-s">
+                            © 2018 All rights reserved. Galina Show by <a href="http://haidanggroup.com" target="blank">Hai Dang Group</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <a class="button-close"></a>
-    </div>
+        </footer>
+
+
+
+
+
+
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      msg: 'Hello '
+    export default {
+       
     }
-  }
-}
 </script>

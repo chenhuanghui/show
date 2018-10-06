@@ -1,7 +1,6 @@
 // alert('day la light-bootstrap-main.js');
 // //script import
 import GlobalScript from './assets/js/global'
-// import Swiper from './assets/js/swiper.jquery.min.js' 
 import Skrollr from './assets/js/skrollr.min.js'
 
 // import map from './assets/js/map'
@@ -16,7 +15,6 @@ import './assets/css/font-awesome.min.css'
 export default {
   install (Vue) {
     Vue.use(GlobalScript)
-    // Vue.use(Swiper)
     Vue.use(Skrollr)
   }
 }

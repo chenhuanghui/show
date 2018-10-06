@@ -68,7 +68,7 @@ $(function() {
 		$('#loader-wrapper').fadeOut(300);
         $('.company-thumbs').addClass('active');
         
-        initSwiper();
+        // initSwiper();
 
         
         if($('.SlectBox').length>0){
