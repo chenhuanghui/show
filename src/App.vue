@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png">     -->
     <router-view/>
+    
   </div>
 </template>
 
@@ -21,3 +22,13 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+<!--
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="src/assets/js/swiper.jquery.min.js"></script>
+<script src="assets/js/skrollr.min.js"></script>
+<script src="src/assets/js/global.js"></script> 
+-->
+
+
